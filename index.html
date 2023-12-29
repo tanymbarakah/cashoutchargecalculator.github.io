@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="./css/style.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Cashout Charge Calculator</title>
+</head>
+<body>
+
+        <div class="calculator-container">
+          <h2>Cashout Charge Calculator</h2>
+      
+          <label for="amount">Enter Amount (Minimum 50 BDT):</label>
+          <input type="number" id="amount" placeholder="Enter amount" min="50">
+      
+          <label for="provider">Select Provider:</label>
+          <select id="provider">
+            <option value="bkash">bKash</option>
+            <option value="nagad">Nagad</option>
+            <option value="upay">Upay</option>
+            <option value="rocket">Rocket</option>
+            <option value="tap">Tap</option>
+          </select>
+      
+          <label for="calculationMethod">Select Calculation Method:</label>
+          <select id="calculationMethod">
+            <option value="app">App</option>
+            <option value="ussd">USSD</option>
+          </select>
+      
+          <button onclick="calculateCharge()">Calculate Charge</button>
+      
+          <div id="result"></div>
+        </div>
+        <footer>
+          <div class="social" style="text-align: center;">
+          <a href="https://www.facebook.com/tanymbarakah.me" target="_blank"><img src="https://drive.google.com/uc?export=download&id=1j2EOoC1kblm7VL56_3Yi52I1_wFTfBY2" alt="Facebook"></a>
+          <a href="https://www.linkedin.com/in/tanym-barakah/" target="_blank"><img src="https://drive.google.com/uc?export=download&id=1jqT_mrCvXmKS9bAoEbFKOEWSHXpcnb4K" alt="Instagram"></a>
+          <a href="https://wa.link/jjmuv3" target="_blank"><img src="https://drive.google.com/uc?export=download&id=1_LcZvRxYgaU0ElyhhqKPFqp7ngk-EraA" alt="WhatsApp"></a>
+          <a href="https://www.instagram.com/tanymbarakah/" target="_blank"><img src="https://drive.google.com/uc?export=download&id=1sPh8UtJyTt-jHXny71Xp7Q3cCYj91roP" alt="Instagram"></a>
+          <a href="https://twitter.com/TanymBarakah" target="_blank"><img src="https://drive.google.com/uc?export=download&id=1G4pBLytGLMSxHUiuLHutZ5bLX26qs2lI" alt="twitter"></a>
+          
+      </div>
+      </footer>
+<p style="text-align: center;">By- Tanym barakah</p>
+
+      </div>
+    
+
+ <script src="./js/script.js"></script>
+
+</body>
+</html>
