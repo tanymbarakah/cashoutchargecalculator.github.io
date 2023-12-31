@@ -16,6 +16,7 @@ function calculateCharge() {
     // Predefined percentages
     var appPercentages = {
       'bkash': 1.75,
+      'bkash_pA': 1.49,
       'nagad': 1.149,
       'upay': 1.4,
       'rocket': 1.67,
@@ -24,6 +25,7 @@ function calculateCharge() {
   
     var ussdPercentages = {
       'bkash': 1.85,
+      'bkash_pA': 1.49,
       'nagad': 1.494,
       'upay': 1.4,
       'rocket': 1.67,
