@@ -3,7 +3,7 @@ function calculateCharge() {
     var amount = parseFloat(amountInput.value);
   
     if (isNaN(amount) || amount < 50) {
-      prompt('Please enter a valid amount greater than or equal to 50 BDT.');
+      (confirm('Please enter a valid amount greater than or equal to 50 BDT.'));
       amountInput.value = '';
       return;
     }
