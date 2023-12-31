@@ -4,6 +4,7 @@ function calculateCharge() {
   
    if (isNaN(amount) || amount < 50) {
       confirm('Please enter a valid amount greater than or equal to 50 BDT.');
+      amountInput.value = '';
       return;
     }
 
