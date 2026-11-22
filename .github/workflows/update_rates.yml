@@ -1,0 +1,33 @@
+name: Update MFS Cash Out Rates
+
+on:
+  schedule:
+    # Runs every Monday at 00:00 UTC
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-rates:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Rates Updater
+        run: |
+          python scripts/update_mfs_rates.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/rates.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(rates): auto-update MFS cash out charges from official sources [skip ci]" && git push)
