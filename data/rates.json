@@ -11,8 +11,14 @@
       "minAmount": 200,
       "maxAmount": 25000,
       "officialSource": "https://www.bkash.com/en/charges",
-      "app": { "rate": 1.75, "text": "১৭.৫০৳ / ১০০০৳" },
-      "ussd": { "rate": 1.85, "text": "১৮.৫০৳ / ১০০০৳" }
+      "app": {
+        "rate": 1.75,
+        "text": "১৭.৫০৳ / ১০০০৳"
+      },
+      "ussd": {
+        "rate": 1.85,
+        "text": "১৮.৫০৳ / ১০০০৳"
+      }
     },
     "bkash_pA": {
       "name": "bKash প্রিয়",
@@ -20,8 +26,14 @@
       "minAmount": 200,
       "maxAmount": 25000,
       "officialSource": "https://www.bkash.com/en/priyo-agent",
-      "app": { "rate": 1.49, "text": "১৪.৯০৳ (≤ ২৫,০০০৳)" },
-      "ussd": { "rate": 1.49, "text": "১৪.৯০৳ (≤ ২৫,০০০৳)" }
+      "app": {
+        "rate": 1.49,
+        "text": "১৪.৯০৳ (≤ ২৫,০০০৳)"
+      },
+      "ussd": {
+        "rate": 1.49,
+        "text": "১৪.৯০৳ (≤ ২৫,০০০৳)"
+      }
     },
     "nagad": {
       "name": "Nagad",
@@ -29,8 +41,14 @@
       "minAmount": 50,
       "maxAmount": 25000,
       "officialSource": "https://nagad.com.bd/services/charges",
-      "app": { "rate": 1.149, "text": "১১.৪৯৳ / ১০০০৳" },
-      "ussd": { "rate": 1.494, "text": "১৪.৯৪৳ / ১০০০৳" }
+      "app": {
+        "rate": 1.149,
+        "text": "১১.৪৯৳ / ১০০০৳"
+      },
+      "ussd": {
+        "rate": 1.494,
+        "text": "১৪.৯৪৳ / ১০০০৳"
+      }
     },
     "upay": {
       "name": "Upay",
@@ -38,8 +56,14 @@
       "minAmount": 50,
       "maxAmount": 25000,
       "officialSource": "https://www.upaybd.com/tariff-and-limits",
-      "app": { "rate": 1.40, "text": "১৪.০০৳ / ১০০০৳" },
-      "ussd": { "rate": 1.40, "text": "১৪.০০৳ / ১০০০৳" }
+      "app": {
+        "rate": 1.4,
+        "text": "১৪.০০৳ / ১০০০৳"
+      },
+      "ussd": {
+        "rate": 1.4,
+        "text": "১৪.০০৳ / ১০০০৳"
+      }
     },
     "rocket": {
       "name": "Rocket",
@@ -47,8 +71,14 @@
       "minAmount": 20,
       "maxAmount": 25000,
       "officialSource": "https://www.dutchbanglabank.com/rocket/fees-charges.html",
-      "app": { "rate": 1.67, "text": "১৬.৭০৳ / ১০০০৳" },
-      "ussd": { "rate": 1.67, "text": "১৬.৭০৳ / ১০০০৳" }
+      "app": {
+        "rate": 1.67,
+        "text": "১৬.৭০৳ / ১০০০৳"
+      },
+      "ussd": {
+        "rate": 1.67,
+        "text": "১৬.৭০৳ / ১০০০৳"
+      }
     },
     "tap": {
       "name": "Tap",
@@ -56,8 +86,14 @@
       "minAmount": 50,
       "maxAmount": 25000,
       "officialSource": "https://www.tapnpay.com.bd/",
-      "app": { "rate": 1.47, "text": "১৪.৭০৳ / ১০০০৳" },
-      "ussd": { "rate": 1.80, "text": "১৮.০০৳ / ১০০০৳" }
+      "app": {
+        "rate": 1.47,
+        "text": "১৪.৭০৳ / ১০০০৳"
+      },
+      "ussd": {
+        "rate": 1.8,
+        "text": "১৮.০০৳ / ১০০০৳"
+      }
     }
   }
 }
